@@ -62,7 +62,7 @@ class PVTO:
              El Marhoun Correlation
         """
         Gamma_ob = (Gamma_o+2.18*(10**-4)*Rsb*Gamma_gsp)/Bob
-        Co = math.exp(-14.1042+(2.7314/Gamma_ob)-56.0605*(10**-6)*((P-Pb)/(Gamma_ob**3))-580.8778/(T+460))
+        Co = math.exp(-14.1042+(2.7314/Gamma_ob)-56.0605*(100**-6)*((P-Pb)/(Gamma_ob**3))-580.8778/(T+460))
 
     # step5: Calculating oil viscosity
 
